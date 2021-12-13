@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exercicio4 {
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner leia = new Scanner(System.in);
 		
 		int numero, quadrado;

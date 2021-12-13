@@ -1,3 +1,4 @@
+//Ler 10 números e imprimir quantos são pares e quantos são ímpares. (FOR)
 package Repeticao;
 
 import java.util.Scanner;
@@ -12,7 +13,7 @@ public class Exercicio2 {
 		
 		
 		for(x = 1; x <= 10; x++) {
-			System.out.print("Informe o numero: ");
+			System.out.println("Informe o numero: ");
 			num = leia.nextInt();
 			
 			if(num % 2 == 0) {
@@ -21,6 +22,4 @@ public class Exercicio2 {
 		}
 		System.out.println("De 10 numeros, " + p + " são pares e " + (10-p)+" são impares");
 	}
-	
-	
 }
